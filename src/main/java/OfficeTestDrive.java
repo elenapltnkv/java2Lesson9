@@ -30,7 +30,7 @@ public class OfficeTestDrive {
                                 .flatMap(p -> p.stream())
                                 .distinct()
                                 .map(p -> p.getName())
-                                .collect(Collectors.toSet();
+                                .collect(Collectors.toSet())));
 
 
         //Создать map, где ключ-название должности, а значение - список людей на этой должности
